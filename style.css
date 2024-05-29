@@ -1,4 +1,15 @@
 
+    @font-face {
+        font-family: 'Cathalia';
+        src: url(fonts/Cathalia.ttf); format('truetype');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Empire';
+        src: url(fonts/Empire.ttf); format('truetype');
+        font-weight: bold;
+    
+    }
     body {
         font-family: Arial;
         background-color: #d4d0d0;
@@ -7,6 +18,9 @@
         padding: 0;
     }
     header {
+        font-family: "Cathalia";
+        font-size: 2em;
+        font-weight: bold;
         background-color: #d10000;
         color: #ffffff;
         text-align: center;
@@ -17,6 +31,8 @@
     }
     
     section {
+        font-family: "Empire", sans-serif;
+        font-weight: normal;
         margin-top: 20px;
         margin-bottom: 20px;
         margin: auto;
@@ -27,8 +43,11 @@
 
     }
     h2 {
-       color: #4caf50;
-       text-align: center; 
+        font-family: "Empire", sans-serif;
+        font-size: 4em;
+        font-weight: bold;
+        color: #4caf50;
+        text-align: center; 
     }
     div {
         margin-left: auto;
